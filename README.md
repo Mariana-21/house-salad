@@ -33,3 +33,7 @@ And I should see a message "7 Results"
 And I should see a list of the 7 members of the house for Colorado
 And I should see a name, role, party, and district for each member
 ```
+
+###Refactor Exercise
+
+I refactored the one index method in the search controller and broke it up into 3 other files. I made the members in to a poro(Plain Old Ruby Object) and created a seperate service class to have one single responsibitly, follow SRP and MVC. I also took the data given to me by the PropublicaService and used it to soley get the information of the members.
